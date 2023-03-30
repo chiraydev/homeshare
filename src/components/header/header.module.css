@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 90%;
+    align-items: center;
+    margin: 15px auto;
+    align-items: center;
+}
+
+.subList{
+    display: flex;
+    /* flex: 2; */
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+.subAllList{
+    display: flex;
+    /* flex: 2; */
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.dropdownToggle {
+    display: flex !important;
+    border: none !important;
+  }
+  
+  .dropdownToggle::after {
+    content: url("/assets/Extra_icons/select_category_icon.png") !important;
+    border: 0 !important;
+    margin: 0 !important;
+    width: 10px !important;
+  }
+  
+  .dropdownIconToggle::after {
+    display: none !important;
+  }
+
+  .dropdownIconToggle {
+    color: black;
+    background: transparent;
+    border: none;
+  }
+
+.subList p{
+   cursor: pointer;
+}

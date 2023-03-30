@@ -1,0 +1,47 @@
+
+.container{
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto 40px;
+}
+
+
+
+.head2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head2 span{
+    width: 8%;
+    border-top: 1px solid black;
+}
+
+.divider{
+    border-left: 1px solid lightgray;
+    margin-right: 40px;
+
+}
+
+.content2{
+    width: 95%;
+}
+
+.content2 textarea {
+    width: 100%;
+    border-radius: 10px;
+    border-color: lightgray;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.head1{
+    font-size: 18px;
+    text-align: center;
+}
+
+.head1 span{
+    color:#f8cd46;
+    border: none;
+}

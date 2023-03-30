@@ -1,0 +1,22 @@
+
+.container{
+    width: 90%;
+    margin: auto;
+
+}
+
+.head1{
+    font-size: 30px;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.head1 span{
+    color:#f8cd46
+}
+
+.content{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
