@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import NewImg from "../../../assets/new.jpg"
+import NewImg from "../../../assets/new.png"
 import styles from "./home.module.css"
-import DummyImg from "../../../assets/check.jpg"
+import DummyImg from "../../../assets/check.png"
 import {MdLocationOn} from "react-icons/md"
 import {FaMoneyBillAlt} from "react-icons/fa"
 

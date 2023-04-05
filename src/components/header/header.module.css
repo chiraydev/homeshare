@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     width: 90%;
     align-items: center;
     margin: 15px auto;
@@ -11,8 +11,9 @@
     display: flex;
     /* flex: 2; */
     justify-content: space-between;
-    width: 50%;
+    width: 35%;
     align-items: center;
+    margin-left: auto;
 }
 
 .subAllList{
@@ -21,6 +22,7 @@
     justify-content: space-between;
     width: 100%;
     align-items: center;
+    
 }
 
 .dropdownToggle {

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import NewImg from "../../../assets/new.jpg"
+import NewImg from "../../../assets/new.png"
 import styles from "./blog.module.css"
 
 function Card() {

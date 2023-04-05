@@ -11,6 +11,7 @@ import Dropdown from 'react-bootstrap/Dropdown'
 import { GiHamburgerMenu } from "react-icons/gi";
 import {FaRegUserCircle} from "react-icons/fa"
 import Badge from 'react-bootstrap/Badge';
+import Logo from "../../assets/logo.png"
 
 function Header({responsive = false}) {
 
@@ -37,7 +38,8 @@ setShow={() => setAuth({login:false,signup:false})}
 bodyContent={<SignUp setAuth={setAuth} auth={auth} /> }
 />
 
-        <h4 style={{width:"100%",marginBottom:0}} >Home Share</h4>
+        {/* <h4 style={{width:"100%",marginBottom:0}} >Home Share</h4> */}
+        <Image onClick={() => router.push("/")} style={{cursor:"pointer"}} src={Logo} />
        {!responsive ? 
        token ?
        <div className={styles.subAllList} >

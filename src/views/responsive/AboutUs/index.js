@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import NewImg from "../../../assets/check.jpg"
+import NewImg from "../../../assets/check.png"
 import styles from "./about.module.css"
 
 function AboutUs() {

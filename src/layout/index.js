@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { useMediaQuery } from "react-responsive";

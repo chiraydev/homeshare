@@ -1,0 +1,193 @@
+.container{
+background-color: #fffcf1;
+padding: 7rem 0 5rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 90%;
+margin: auto;
+}
+
+.content img{
+width: 700px;
+height: 450px;
+}
+
+
+.head h1{
+    font-size: 4.5rem;
+    font-weight: bolder;
+    margin-top: 3rem;
+}
+
+.head input{
+    width: 90%;
+    padding: 12px 10px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.head p{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.head button{
+    background-color: #f8cd46;
+    border: none;
+    position: absolute;
+    top: 7px;
+    right: 80px;
+}
+
+.head button:hover{
+    background-color: #f8cd46;
+    border: none;
+    position: absolute;
+    top: 7px;
+    right: 80px;
+}
+
+.hiw h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.content2{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 14rem;
+    row-gap: 4rem;
+    justify-content: center;
+}
+
+.content2 .card{
+    width: 20%;
+}
+
+.content2 .card img{
+    margin-left: -45px;
+    width: 260px;
+    height: 250px;
+}
+
+.content2 .card p{
+ color: darkgray;
+}
+
+.wif h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.wif .content3{
+    display: flex;
+    margin-top: 3rem;
+    
+}
+
+.wif .content3 img{
+   width: 45%;
+   height: 20%;
+
+}
+
+.wmu{
+    width: 80%;
+    margin: auto;
+}
+
+.wmu h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.content4{
+    display: flex;
+    margin-top: 3rem; 
+    gap: 4rem;
+}
+
+.content4 .card{
+    width: 100%;
+}
+
+.content4 .card img{
+    width: 80%;
+    height: 70%; 
+    margin-left: -50px;
+}
+
+.content4 .card p{
+    color: darkgray;
+   }
+
+
+
+   .wps h1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.wps{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 14rem;
+}
+
+.content5 .card{
+    width: 100%;
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+.content5 .cardActive{
+    width: 100%;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.content5 .card hr{
+  background-color: #f8ce4e;
+  height: 10px;
+  opacity: 1;
+  color: transparent;
+
+}
+
+.content5 .cardActive hr{
+  background-color: #f8ce4e;
+  height: 10px;
+  opacity: 1;
+  color: transparent;
+
+}
+
+  .inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #f8cd46;
+    padding: 15px 5px;
+    border-radius: 15px;
+}
+
+.inner img{
+    width: 30%;
+}
+
