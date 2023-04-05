@@ -1,10 +1,13 @@
 import React from 'react'
 import styles from "./pricing.module.css"
+import { MdArrowBackIos } from "react-icons/md";
+
+
 
 function Pricing() {
   return (
     <div className={styles.container} > 
-        <h4 className='fs-5' >Pricing</h4>
+        <h4 className='fs-5 mt-5 mb-4' > <span><MdArrowBackIos /> </span> Pricing</h4>
         <p className={styles.content} >What is Lorem Ipsum?
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br /><br />
 

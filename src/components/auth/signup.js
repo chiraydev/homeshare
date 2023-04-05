@@ -37,7 +37,7 @@ function SignUp({responsive}) {
           </div>
        
         </div>
-        <Button type="submit" style={{ width: "100%", background: "#f8cd46",borderColor:"transparent" }}>
+        <Button type="submit" style={{ width: "100%",padding:"12px 0", background: "#f8cd46",borderColor:"transparent" }}>
             Sign Up
           </Button>
           <div className={styles.head2}  >
@@ -52,7 +52,7 @@ function SignUp({responsive}) {
             Login with FaceBook
           </Button>
 
-          <h4 className={styles.head1}  >Already have an account <span>Login</span></h4>
+          <h4 className={styles.head1}  >Already have an account? <span> Login</span></h4>
     </div>
 
 </div>

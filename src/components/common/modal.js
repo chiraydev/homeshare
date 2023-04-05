@@ -8,7 +8,7 @@ function CommonModal({ show, setShow, title, primaryFunction, bodyContent,center
       <Modal
         show={show ? true : false}
         onHide={setShow}
-        size="lg"
+        size="md"
         aria-labelledby="contained-modal-title-vcenter"
         centered = {centered}
        

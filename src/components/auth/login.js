@@ -25,7 +25,7 @@ function Login({responsive = false,setAuth,auth,setToken}) {
     <div style={{width:responsive ? "90%" : "70%",margin:"auto"}} >
     <SimpleInput placeholder="Email" value={email} onClick={(e) => setEmail(e.target.value)} />
     <SimpleInput placeholder="Password" value={password} onClick={(e) => setPassword(e.target.value)} style={{marginTop:"10px"}} />
-    <div className="d-flex mt-3 justify-content-between ">
+    <div className="d-flex mt-3 mb-2 justify-content-between ">
           <div className="d-flex mb-4">
             <input
               type="checkbox"
@@ -34,10 +34,10 @@ function Login({responsive = false,setAuth,auth,setToken}) {
             <p style={{fontSize:responsive ? "12px" : "16px"}} >Keep me logged in</p>
           </div>
           <p style={{fontSize:responsive ? "12px" : "16px"}} >
-            <span style={{cursor:"pointer" }} onClick={() => setAuth({forgot: true,verify: false,signup:false,login:false}) }  >Forgot Password ?</span>
+            <span style={{cursor:"pointer", }} onClick={() => setAuth({forgot: true,verify: false,signup:false,login:false}) }  >Forgot Password ?</span>
           </p>
         </div>
-        <Button type="submit" style={{ width: "100%", background: "#f8cd46",borderColor:"transparent" }} onClick={() => {
+        <Button type="submit" style={{ width: "100%",padding:"12px 0", background: "#f8cd46",borderColor:"transparent" }} onClick={() => {
           setAuth({...auth,login:false})
           setToken(true)
           }} >
@@ -55,7 +55,7 @@ function Login({responsive = false,setAuth,auth,setToken}) {
             Login with FaceBook
           </Button>
 
-          <h4 className={styles.head1}  >Dont have an account <span>Sign Up</span></h4>
+          <h4 className={styles.head1}  >Dont have an account? <span>Sign Up</span></h4>
     </div>
 
 </div>

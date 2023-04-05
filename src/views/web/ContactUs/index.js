@@ -17,7 +17,7 @@ function Contact() {
 <SimpleInput placeholder="Email" style={{marginTop:"10px"}}  />
 
 <div className='pt-3' >
-    <p className='fw-600' >Please Select your type of submission</p>
+    <p className='fw-700' >Please Select your type of submission</p>
     <div className='d-flex' >
         <input type="radio" name="option" className='me-2' />
         <label>Question</label>
