@@ -12,15 +12,15 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import {FaRegUserCircle} from "react-icons/fa"
 import Badge from 'react-bootstrap/Badge';
 import Logo from "../../assets/logo.png"
+import { useGlobalStore } from '@/utils/store'
 
 function Header({responsive = false}) {
 
     const router = useRouter()
 const [auth, setAuth] = useState({login:false,signup:false})
-const [token, setToken] = useState(false)
+const {userDetails,landingPage,setLandingPage} = useGlobalStore(state => state)
 
 
-console.log(token,"token");
 
   return (
     <div className={styles.container} >
@@ -29,7 +29,7 @@ console.log(token,"token");
 <CommonModal 
 show={auth.login}
 setShow={() => setAuth({login:false,signup:false})}
-bodyContent={<Login setAuth={setAuth} auth={auth} setToken={setToken} /> }
+bodyContent={<Login setAuth={setAuth} auth={auth} setToken={setLandingPage} /> }
 />
 
 <CommonModal 
@@ -41,13 +41,13 @@ bodyContent={<SignUp setAuth={setAuth} auth={auth} /> }
         {/* <h4 style={{width:"100%",marginBottom:0}} >Home Share</h4> */}
         <Image onClick={() => router.push("/")} style={{cursor:"pointer"}} src={Logo} />
        {!responsive ? 
-       token ?
+       !landingPage ?
        <div className={styles.subAllList} >
-       <p  >My Profile</p>
+       <p onClick={() => router.push("/profile")} >My Profile</p>
        <p  >My Home</p>
        <p >My Messages <Badge style={{borderRadius:"50%",top:"10px",position:"absolute"}} bg="warning">6</Badge>  </p>
        <p  >Favourites</p>
-       <p onClick={() => setToken(false)} > <span><FaRegUserCircle  /> </span> My Account</p>
+       <p onClick={() => setLandingPage(true)} > <span><FaRegUserCircle  /> </span> My Account</p>
                </div> :
        <div className={styles.subList} >
 <p onClick={() => router.push("/aboutus")} >Our story</p>

@@ -39,7 +39,7 @@ function Login({responsive = false,setAuth,auth,setToken}) {
         </div>
         <Button type="submit" style={{ width: "100%",padding:"12px 0", background: "#f8cd46",borderColor:"transparent" }} onClick={() => {
           setAuth({...auth,login:false})
-          setToken(true)
+          setToken(false)
           }} >
             Login
           </Button>
